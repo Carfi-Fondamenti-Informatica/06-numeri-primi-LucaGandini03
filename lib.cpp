@@ -5,7 +5,7 @@ bool primi(int n){
     if(n%div==0){
       conta++;
     }
-    divv++;
+    div++;
   }
   if (conta==1){
     return true;
